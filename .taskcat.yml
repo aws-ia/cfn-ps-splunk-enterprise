@@ -1,5 +1,5 @@
 project:
-  name: quickstart-splunk-enterprise
+  name: cfn-ps-splunk-enterprise
   owner: quickstart@amazon.com
   package_lambda: false
   regions:
