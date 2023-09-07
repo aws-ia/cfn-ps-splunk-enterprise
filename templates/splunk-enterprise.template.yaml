@@ -197,7 +197,7 @@ Parameters:
     Description: 'The AWS Region where the Quick Start S3 bucket (QSS3BucketName) is hosted. When using your own bucket, you must specify this value.'
     Type: String
   QSS3KeyPrefix:
-    Default: quickstart-splunk-enterprise/
+    Default: cfn-ps-splunk-enterprise/
     Description: S3 key prefix for the Quick Start assets.
     Type: String
   SHCEnabled:
@@ -335,7 +335,7 @@ Conditions:
       - !Equals
         - ''
         - !Ref 'SplunkLicensePath'
-  UsingDefaultBucket: !Equals [!Ref QSS3BucketName, 'aws-quickstart']
+  UsingDefaultBucket: !Equals [!Ref QSS3BucketName, 'aws-ia-us-east-1']
 Mappings:
   AWSAMIRegionMap:
     AMI:
