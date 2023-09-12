@@ -1777,3 +1777,9 @@ Outputs:
                     - Fn::GetAtt:
                         - SplunkCMWaitCondition
                         - Data
+  QSS3BucketRegion:
+    Value:
+      Ref: QSS3BucketRegion
+  QSS3KeyPrefix:
+    Value:
+      Ref: QSS3KeyPrefix

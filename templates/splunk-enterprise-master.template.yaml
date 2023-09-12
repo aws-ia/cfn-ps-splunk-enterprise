@@ -464,3 +464,9 @@ Outputs:
       Fn::GetAtt:
         - SplunkStack
         - Outputs.HttpEventCollectorToken
+  SplunkSearchHeadDiskSize:
+    Value:
+      Ref: SplunkSearchHeadDiskSize
+  SplunkSearchFactor:
+    Value:
+      Ref: SplunkSearchFactor
