@@ -1,6 +1,10 @@
 # Splunk Enterprise on AWS - Quick Start
 
 Source code associated with [Splunk Enterprise AWS Quick Start](https://fwd.aws/r7QNJ)
+## Deprecation Notice
+
+:x: This repository is subject to deprecation in Q4 2024. For more details, [please review this announcement](https://github.com/aws-ia/.announcements/issues/1). 
+
 
 ## Usage
 
